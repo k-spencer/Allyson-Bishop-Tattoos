@@ -17,7 +17,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #fc0000;
+  color: #f84c0b;
 }
 
 a:hover {
@@ -135,7 +135,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: red;
+  background: #f84c0b;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -168,9 +168,8 @@ header a {
 
 header {
   padding: 0 20px;
-  background-color: rgb(213, 29, 29);
-  /*background-image: url(https://www.elmstreettattoo.com/wp-content/themes/est/assets/images/bg-header.2fac82ffa0.png);*/
-  height: 50px;
+  background-color: #f84c0b;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -181,7 +180,7 @@ header {
 
 #brand {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 40px;
   display: flex;
   align-items: center;
 }
@@ -356,7 +355,7 @@ ul li{
 
 #hero .hero-container {
   position: absolute;
-  bottom: 0;
+  bottom: -50px;
   top: 0;
   left: 0;
   right: 0;
@@ -517,13 +516,18 @@ ul li{
   
 }
 
+.about figcaption{
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
 
 .about text{
   font-size: 70px;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 
   .about p{
     font-size: 15px;
@@ -879,7 +883,7 @@ ul li{
   background-color:#ffffff
 }
 .team .altcolor{
-  color:rgb(228, 3, 3)
+  color: #f84c0b;
 }
 .team .member img {
   max-width: 60%;
@@ -934,7 +938,7 @@ ul li{
 }
 
 .team .member .social a {
-  color: #fc0000;
+  color:#f84c0b;
   transition: 0.3s;
 }
 
@@ -944,7 +948,7 @@ ul li{
 
 .team .member .social i {
   font-size: 18px;
-  color: #fc0000;
+  color: #f84c0b;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1019,7 +1023,7 @@ ul li{
 
 .contact .info i {
   font-size: 32px;
-  color: red;
+  color:#f84c0b;
   line-height: 1;
   justify-content: center;
 
@@ -1129,9 +1133,9 @@ ul li{
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #b70404dd;
+  background: #f84c0b;
   padding: 30px 0;
-  color: #fff;
+  color: #000000;
   font-size: 14px;
 }
 
