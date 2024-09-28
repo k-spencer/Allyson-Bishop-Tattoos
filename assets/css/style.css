@@ -97,7 +97,7 @@ p,
   margin: 0;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 480px) {
   .breadcrumbs h2 {
     margin: 0 0 10px 0;
   }
@@ -123,7 +123,7 @@ p,
   content: "/";
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .breadcrumbs .d-flex {
     display: block !important;
   }
@@ -325,7 +325,7 @@ ul li{
   margin-bottom: 10px;
   margin-right: 48px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   header nav {
     display: none;
   }
@@ -439,8 +439,8 @@ ul li{
 
 #hero .btn-get-started:hover {
   background: rgb(255, 255, 255);
-  color: red;
-  border: 1px solid red;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
 }
 
 @media (min-width: 1024px) {
@@ -449,7 +449,7 @@ ul li{
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   #hero h1 {
     font-size: 40px;
     line-height: 30px;
@@ -504,8 +504,8 @@ ul li{
 
 #about .btn-get-started:hover {
   background: rgb(255, 255, 255);
-  color: red;
-  border: 1px solid red;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
 }
 
 
@@ -578,7 +578,7 @@ ul li{
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
 
   .about p{
     font-size: 15px;
@@ -641,7 +641,7 @@ ul li{
 
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 480px){
   .bio p{
    
   }
@@ -953,12 +953,13 @@ ul li{
 
 .team{
   text-align: center;
+  margin-bottom: 5%;
 }
 
 
 
 .team .altcolor{
-  color: #f84c0b;
+  color: #000000;
 }
 .team .member img {
   max-width: 60%;
@@ -1016,12 +1017,12 @@ ul li{
   margin-top: 15px;
 }
 
-.team .member .social a {
+.team .profile .social a {
   color:#000000;
   transition: 0.3s;
 }
 
-.team .member .social a:hover {
+.team .profile .social a:hover {
   color: #fafafa;
 }
 
@@ -1030,11 +1031,11 @@ ul li{
   color: #000000;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 480px) {
 
   .team .profile img{
-    max-width: 50%;
-    min-width: 50%;
+    max-width: 80%;
+    max-height: 80%;
   }
   
 }
@@ -1047,12 +1048,11 @@ ul li{
 .contact{
 
   text-align: center;
+  margin-bottom: 5%;
 
 }
 .contact .contact-about h3 {
   font-size: 36px;
-  margin: 0 0 10px 0;
-  padding: 0;
   line-height: 1;
   font-weight: 500;
   letter-spacing: 1px;
