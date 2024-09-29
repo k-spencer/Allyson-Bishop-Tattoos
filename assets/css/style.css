@@ -625,7 +625,7 @@ ul li{
 --------------------------------------------------------------*/
 
 .bio {
-  background: rgba(255, 255, 255, 0.993);
+ 
 }
 
 .bio .portfolio img{
@@ -639,11 +639,21 @@ ul li{
   display: inline-block;
 }
 
+.bio img{
+ 
+  margin: 0 0 30px 0;
+  max-width:  100%;
+  max-height: 100%;
+  align-items: center;
+  display: inline-block;
+}
+
 
 
 @media only screen and (max-width: 480px){
-  .bio p{
-   
+
+  .bio .shop img{
+    
   }
 }
 
@@ -994,6 +1004,10 @@ ul li{
   display: inline-block;
 }
 
+.team .profile p{
+  font-size: medium;
+}
+
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 2px;
@@ -1066,6 +1080,8 @@ ul li{
   color: #888;
 }
 
+
+
 .contact .social-links {
 
 }
@@ -1090,6 +1106,10 @@ ul li{
   color: red;
 }*/
 
+
+
+
+
 .contact .info {
   color: #000000;
   text-align: center;
@@ -1109,6 +1129,7 @@ ul li{
   font-size: 14px;
   text-align: center;
 }
+
 
 .contact .php-email-form .error-message {
   display: none;
